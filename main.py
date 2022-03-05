@@ -25,9 +25,8 @@ def main():
         wordLen = wordLen + "_"
     print(wordLen)
     wordle = list(word)
-    check = True
     output = list(wordLen)
-    while check:
+    while True:
         character = input("Input a single character: ")
         count = 0
         for x in wordle:
