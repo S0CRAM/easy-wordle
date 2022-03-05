@@ -4,8 +4,6 @@
 #################
 
 #-- Imports
-from asyncio.windows_events import NULL
-from ntpath import join
 import random
 
 #-- Global vars
