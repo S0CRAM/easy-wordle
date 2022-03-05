@@ -6,11 +6,9 @@
 #-- Imports
 import random
 
-#-- Global vars
-wordlist = []
-
 #-- Functions
 def get_word():
+    wordlist = []
     dictionary = open("dictionary.txt", "r")
     for lines in dictionary.readlines():
         lines = lines.split("\n")
